@@ -1,0 +1,30 @@
+# Build outputs
+OBJ/
+**/OBJ/
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.axf
+*.elf
+*.hex
+*.bin
+
+# Keil uVision user/temporary files
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvgui.*
+*.uvguix.*
+*.dep
+*.bak
+*.tmp
+
+# Debug/programmer artifacts
+JLinkLog.txt
+JLinkSettings.ini
+DebugConfig/
+
+# Host-side tools/binaries
+UDPclient.exe
