@@ -1,4 +1,4 @@
-# STM32F103 GPS Logger (SIM900A + SD/FATFS)
+# STM32F103 GPS Logger
 
 Firmware for an STM32F103 application that captures GPS NMEA data, logs it to an SD card, and can forward the same data over GPRS via a SIM900A module. The top-level code lives in `USER/main.c` and is built with the STM32 Standard Peripheral Library.
 
